@@ -620,7 +620,29 @@ a {
   line-height: 1.75;
 }
 
-.footer .botton-row {
+.footer .social {
+  display: flex;
+}
+
+.footer .social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 0.3rem;
+  background-color: #f9f9f9;
+}
+
+.footer .social-link + .social-link {
+  margin-left: 1.6rem;
+}
+
+.footer .social-link:hover {
+  background-color: #ebebeb;
+}
+
+.footer .bottom-row {
   justify-content: space-between;
   align-items: center;
   margin-top: 8.1rem;
